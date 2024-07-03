@@ -9,15 +9,17 @@ import { Data } from './Props/Data'
 import { A1 } from './Context/A1'
 import { ActorData } from './Hooks/ActorData'
 import { UC } from './UseCallback/Usecallback'
+import { UseRef } from './Hooks/UseRef'
+import { UseReducer } from './Hooks/UseReducer'
 
 function App() {
 
 
   return (
     <> 
-<UC />
-
-    </>
+<UseRef/>
+</>
+    
   )
 }
 
